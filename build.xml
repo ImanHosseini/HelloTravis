@@ -57,7 +57,7 @@
         <delete dir="${doc.dir}" />
     </target>
 
-	<target name="junit" depends="compile">
+	<target name="test" depends="compile">
 
     <junit printsummary="yes" haltonfailure="yes">
 		<classpath location="tests/junit.jar" />
